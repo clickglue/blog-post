@@ -1,0 +1,95 @@
+:root {
+  font-family: "Figtree";
+  /* colors */
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+
+  /* font weights*/
+  --Heavy: 800;
+  --Light: 500;
+}
+
+html {
+  background-color: var(--Yellow);
+}
+
+.card {
+  border-radius: 1rem;
+  min-width: 20rem;
+  max-width: 22rem;
+  margin: 1rem;
+  padding: 1.2rem;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+}
+.main-image-section {
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+.main-image {
+  border-radius: 1rem;
+}
+.label {
+  background-color: var(--Yellow);
+  width: 3.5rem;
+  border-radius: 0.15rem;
+  font-size: 0.8rem;
+  font-weight: var(--Heavy);
+  margin-top: 1rem;
+}
+
+.main-text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  color: var(--Gray-950);
+  height: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.published-date {
+  font-size: 0.75rem;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: var(--Heavy);
+}
+.title:hover{
+    color: var(--Yellow);
+}
+.main-text {
+  font-size: 0.9rem;
+  color: var(--Gray-500);
+}
+
+.main-user-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.user-name {
+  font-size: 0.9rem;
+  margin: 1rem;
+  font-weight: var(--Heavy);
+  color: var(--Gray-950);
+}
+
+.user-avatar {
+  width: 2rem;
+  height: 2rem;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
