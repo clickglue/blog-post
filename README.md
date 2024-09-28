@@ -33,19 +33,19 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://clickglue.github.io/blog-post/)
+- Live Site URL: [On Github](https://clickglue.github.io/blog-post/)
 
 ## My process
 
 - [x] Create Git repo and connect to VSC repo
 - [x] Add reset.css file
 - [x] Create styles.css file
-- [ ] HTML
+- [x] HTML
   - [x] Header
     - [x] Link fonts
     - [x] Link reset.css
     - [x] Link styles.css
-  - [ ] Body
+  - [x] Body
     - [x] Create anchors (main, header, footer)
     - [x] Structure content with ```<article>``` and ```<section>```
     - [x] Put content in sections
