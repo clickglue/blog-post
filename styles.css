@@ -27,7 +27,7 @@ html {
   outline-width: 0.1rem;
   outline-color: var(--Gray-950);
   outline-style: solid;
-  box-shadow: 1rem 1rem;
+  box-shadow: 0.5rem 0.5rem;
 }
 .main-image-section {
   justify-content: space-between;
